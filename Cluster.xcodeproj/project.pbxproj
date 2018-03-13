@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82A851620574661007E7E0C /* WeatherSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A851520574661007E7E0C /* WeatherSlider.swift */; };
+		C82A85182057661B007E7E0C /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A85172057661B007E7E0C /* DetailedViewController.swift */; };
 		C886EFDC2056105800C034CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886EFDB2056105800C034CF /* AppDelegate.swift */; };
-		C886EFDE2056105800C034CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886EFDD2056105800C034CF /* ViewController.swift */; };
 		C886EFE12056105800C034CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886EFDF2056105800C034CF /* Main.storyboard */; };
 		C886EFE42056105800C034CF /* Cluster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C886EFE22056105800C034CF /* Cluster.xcdatamodeld */; };
 		C886EFE62056105800C034CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C886EFE52056105800C034CF /* Assets.xcassets */; };
 		C886EFE92056105800C034CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C886EFE72056105800C034CF /* LaunchScreen.storyboard */; };
+		C886EFF320561E6400C034CF /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886EFF220561E6400C034CF /* StepsViewController.swift */; };
+		C886EFF8205621CC00C034CF /* StepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886EFF6205621CC00C034CF /* StepCell.swift */; };
+		C886EFF9205621CC00C034CF /* StepCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C886EFF7205621CC00C034CF /* StepCell.xib */; };
+		C886EFFB2056227700C034CF /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886EFFA2056227700C034CF /* Step.swift */; };
+		C886EFFE205622D700C034CF /* StepsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886EFFD205622D700C034CF /* StepsHelper.swift */; };
+		C886F00220562F4100C034CF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886F00120562F4100C034CF /* Location.swift */; };
+		C886F00420562F4D00C034CF /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886F00320562F4D00C034CF /* Directions.swift */; };
+		C886F00620562F5800C034CF /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886F00520562F5800C034CF /* Weather.swift */; };
+		C886F008205637C800C034CF /* steps.plist in Resources */ = {isa = PBXBuildFile; fileRef = C886F007205637C800C034CF /* steps.plist */; };
+		C93852BC9B8D0A0EE33DF9A8 /* Pods_Cluster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9FFEBA2F0088F401607DF7 /* Pods_Cluster.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C9FFEBA2F0088F401607DF7 /* Pods_Cluster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cluster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82A851520574661007E7E0C /* WeatherSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSlider.swift; sourceTree = "<group>"; };
+		C82A85172057661B007E7E0C /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		C886EFD82056105800C034CF /* Cluster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cluster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C886EFDB2056105800C034CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C886EFDD2056105800C034CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C886EFE02056105800C034CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C886EFE32056105800C034CF /* Cluster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cluster.xcdatamodel; sourceTree = "<group>"; };
 		C886EFE52056105800C034CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C886EFE82056105800C034CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C886EFEA2056105800C034CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C886EFF220561E6400C034CF /* StepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		C886EFF6205621CC00C034CF /* StepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCell.swift; sourceTree = "<group>"; };
+		C886EFF7205621CC00C034CF /* StepCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepCell.xib; sourceTree = "<group>"; };
+		C886EFFA2056227700C034CF /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		C886EFFD205622D700C034CF /* StepsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsHelper.swift; sourceTree = "<group>"; };
+		C886F00120562F4100C034CF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C886F00320562F4D00C034CF /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		C886F00520562F5800C034CF /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		C886F007205637C800C034CF /* steps.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = steps.plist; sourceTree = "<group>"; };
+		CA5DDB054F824B1C88836FB4 /* Pods-Cluster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cluster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cluster/Pods-Cluster.debug.xcconfig"; sourceTree = "<group>"; };
+		E6EE44331000F5E1809C445A /* Pods-Cluster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cluster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cluster/Pods-Cluster.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93852BC9B8D0A0EE33DF9A8 /* Pods_Cluster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BBFBDF28B9F00BEA4B270B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9FFEBA2F0088F401607DF7 /* Pods_Cluster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A46582EA348E460E60ED600 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA5DDB054F824B1C88836FB4 /* Pods-Cluster.debug.xcconfig */,
+				E6EE44331000F5E1809C445A /* Pods-Cluster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C82A851420574640007E7E0C /* UIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C82A851520574661007E7E0C /* WeatherSlider.swift */,
+			);
+			path = UIClasses;
+			sourceTree = "<group>";
+		};
 		C886EFCF2056105800C034CF = {
 			isa = PBXGroup;
 			children = (
 				C886EFDA2056105800C034CF /* Cluster */,
 				C886EFD92056105800C034CF /* Products */,
+				8A46582EA348E460E60ED600 /* Pods */,
+				0BBFBDF28B9F00BEA4B270B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +108,11 @@
 		C886EFDA2056105800C034CF /* Cluster */ = {
 			isa = PBXGroup;
 			children = (
+				C886EFFC205622C500C034CF /* Utils */,
+				C886EFF42056219700C034CF /* Views */,
+				C886EFF120561E3D00C034CF /* Modal */,
+				C886EFF020561E3100C034CF /* ViewControllers */,
 				C886EFDB2056105800C034CF /* AppDelegate.swift */,
-				C886EFDD2056105800C034CF /* ViewController.swift */,
 				C886EFDF2056105800C034CF /* Main.storyboard */,
 				C886EFE52056105800C034CF /* Assets.xcassets */,
 				C886EFE72056105800C034CF /* LaunchScreen.storyboard */,
@@ -67,6 +122,53 @@
 			path = Cluster;
 			sourceTree = "<group>";
 		};
+		C886EFF020561E3100C034CF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C886EFF220561E6400C034CF /* StepsViewController.swift */,
+				C82A85172057661B007E7E0C /* DetailedViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C886EFF120561E3D00C034CF /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				C886EFFA2056227700C034CF /* Step.swift */,
+				C886F00120562F4100C034CF /* Location.swift */,
+				C886F00320562F4D00C034CF /* Directions.swift */,
+				C886F00520562F5800C034CF /* Weather.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		C886EFF42056219700C034CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C886EFF5205621AB00C034CF /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C886EFF5205621AB00C034CF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C886EFF6205621CC00C034CF /* StepCell.swift */,
+				C886EFF7205621CC00C034CF /* StepCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C886EFFC205622C500C034CF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C82A851420574640007E7E0C /* UIClasses */,
+				C886EFFD205622D700C034CF /* StepsHelper.swift */,
+				C886F007205637C800C034CF /* steps.plist */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C886EFED2056105800C034CF /* Build configuration list for PBXNativeTarget "Cluster" */;
 			buildPhases = (
+				CE989929B682A09465E9144E /* [CP] Check Pods Manifest.lock */,
 				C886EFD42056105800C034CF /* Sources */,
 				C886EFD52056105800C034CF /* Frameworks */,
 				C886EFD62056105800C034CF /* Resources */,
+				84782022DF6AD3D8B5891E58 /* [CP] Embed Pods Frameworks */,
+				A3A7C4D551D52BFB5580E37D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,7 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C886F008205637C800C034CF /* steps.plist in Resources */,
 				C886EFE92056105800C034CF /* LaunchScreen.storyboard in Resources */,
+				C886EFF9205621CC00C034CF /* StepCell.xib in Resources */,
 				C886EFE62056105800C034CF /* Assets.xcassets in Resources */,
 				C886EFE12056105800C034CF /* Main.storyboard in Resources */,
 			);
@@ -134,14 +241,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84782022DF6AD3D8B5891E58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cluster/Pods-Cluster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DottedLineView/DottedLineView.framework",
+				"${BUILT_PRODUCTS_DIR}/VegaScrollFlowLayout/VegaScrollFlowLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DottedLineView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VegaScrollFlowLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cluster/Pods-Cluster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A7C4D551D52BFB5580E37D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cluster/Pods-Cluster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE989929B682A09465E9144E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cluster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C886EFD42056105800C034CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C886EFE42056105800C034CF /* Cluster.xcdatamodeld in Sources */,
-				C886EFDE2056105800C034CF /* ViewController.swift in Sources */,
+				C886EFF8205621CC00C034CF /* StepCell.swift in Sources */,
+				C886EFFB2056227700C034CF /* Step.swift in Sources */,
+				C82A85182057661B007E7E0C /* DetailedViewController.swift in Sources */,
+				C886EFFE205622D700C034CF /* StepsHelper.swift in Sources */,
+				C886F00620562F5800C034CF /* Weather.swift in Sources */,
+				C886EFF320561E6400C034CF /* StepsViewController.swift in Sources */,
 				C886EFDC2056105800C034CF /* AppDelegate.swift in Sources */,
+				C886F00220562F4100C034CF /* Location.swift in Sources */,
+				C886F00420562F4D00C034CF /* Directions.swift in Sources */,
+				C82A851620574661007E7E0C /* WeatherSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +447,7 @@
 		};
 		C886EFEE2056105800C034CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5DDB054F824B1C88836FB4 /* Pods-Cluster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +463,7 @@
 		};
 		C886EFEF2056105800C034CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6EE44331000F5E1809C445A /* Pods-Cluster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

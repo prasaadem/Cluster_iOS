@@ -1,0 +1,15 @@
+PODS:
+  - DottedLineView (1.0.0)
+  - VegaScrollFlowLayout (1.0)
+
+DEPENDENCIES:
+  - DottedLineView
+  - VegaScrollFlowLayout
+
+SPEC CHECKSUMS:
+  DottedLineView: 750c5aee6eae69f9bc9acd3bc6ee9938e35856bb
+  VegaScrollFlowLayout: 50b5400e841ede575dc38440aec7c465548314d6
+
+PODFILE CHECKSUM: e6a2513abb68559849cb6fdc3280d8c8c241bece
+
+COCOAPODS: 1.4.0

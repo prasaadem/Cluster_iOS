@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C93F7EC92243CCA4D57B2E1DD31376 /* DottedLineView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE1DD044EE67C57E4EFC750971534E3 /* DottedLineView-dummy.m */; };
+		1F844E8EE97185310385CC7744A53C9A /* VegaScrollFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F02CE45472F0640889F63A2F39C4BE8C /* VegaScrollFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53100A4EFB33E338309D5BC29444B1D9 /* VegaScrollFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0288B4076196AEDCEBDE5B1DB3257F /* VegaScrollFlowLayout-dummy.m */; };
+		622FF19A1785190B8E36FE07EEB05C70 /* Pods-Cluster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7852345EF0C39734E3EEE91DBB296A3 /* Pods-Cluster-dummy.m */; };
+		6B9952F1D9B485884129E0C62FBEFD3B /* DottedLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A2B34959920C534996534CC2822BD4 /* DottedLineView.swift */; };
+		87460E865E8ACC7F9D441D242DAC81A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AAEE3B8E55706869E3C3F035CD647E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AB6B73C5409D17C8AA5DACF265D1E27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BA488C5BAF91CC87A16BCB57FA376191 /* VegaScrollFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED13D9E22EC94935610160D2A5A098 /* VegaScrollFlowLayout.swift */; };
+		BF7B0A8903CD4590F538D36D80A46294 /* DottedLineView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A51EF3E7F767276BB3498CD2B333222C /* DottedLineView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F29DEC2EB0B4732833394346295BB60E /* Pods-Cluster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8BC21C9F04F333F3C15DA7BFC77FB0 /* Pods-Cluster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F9C810035371980D3A0DDF5E40CB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36F6FCF8EDBD1855603BF2F05544C74;
+			remoteInfo = VegaScrollFlowLayout;
+		};
+		6C1A21F01B711EB9BE78FB8F803E2351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FBFE3F084EE50547756DE96E4950BC8;
+			remoteInfo = DottedLineView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09CBCC1719B744ABEE12B8ED3D3EC515 /* VegaScrollFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VegaScrollFlowLayout.framework; path = VegaScrollFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		304318E36FDBA24566E33065E7BDCF85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358D37E8DF9178974D41033B670129E4 /* Pods-Cluster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cluster.release.xcconfig"; sourceTree = "<group>"; };
+		4909F5786CBB2DC354DD4C491BADDCB5 /* VegaScrollFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VegaScrollFlowLayout.modulemap; sourceTree = "<group>"; };
+		49CD25BB22FBB105C448834DB4D10BFD /* DottedLineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DottedLineView.framework; path = DottedLineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A97CAF83F60F1B4B6D9BCB336F3F17C /* Pods-Cluster-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cluster-acknowledgements.markdown"; sourceTree = "<group>"; };
+		570C09DA856B131535310ACC7A4C48E5 /* Pods_Cluster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cluster.framework; path = "Pods-Cluster.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6600BCBE2EFEDBFF848A394F2C0A78BA /* Pods-Cluster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cluster.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66A2B34959920C534996534CC2822BD4 /* DottedLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DottedLineView.swift; path = DottedLineView/Classes/DottedLineView.swift; sourceTree = "<group>"; };
+		69D43EBBCD5DC1147AABC4892366EE9E /* DottedLineView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DottedLineView.xcconfig; sourceTree = "<group>"; };
+		80ED13D9E22EC94935610160D2A5A098 /* VegaScrollFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VegaScrollFlowLayout.swift; path = VegaScrollFlowLayout/Classes/VegaScrollFlowLayout.swift; sourceTree = "<group>"; };
+		8158D69308EF38D4D3F9F9A0816104A6 /* DottedLineView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DottedLineView.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C8BC21C9F04F333F3C15DA7BFC77FB0 /* Pods-Cluster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cluster-umbrella.h"; sourceTree = "<group>"; };
+		9F02727060FED11243C479AF665CDB87 /* Pods-Cluster-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cluster-acknowledgements.plist"; sourceTree = "<group>"; };
+		A51EF3E7F767276BB3498CD2B333222C /* DottedLineView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DottedLineView-umbrella.h"; sourceTree = "<group>"; };
+		ACE1DD044EE67C57E4EFC750971534E3 /* DottedLineView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DottedLineView-dummy.m"; sourceTree = "<group>"; };
+		B9B7FFA098F848CB09004E9581AF25F6 /* DottedLineView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DottedLineView-prefix.pch"; sourceTree = "<group>"; };
+		D010CF8D3431F155184992029964641C /* Pods-Cluster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cluster.modulemap"; sourceTree = "<group>"; };
+		D6ABC869858DBC0D3393AF9F3A9C7871 /* Pods-Cluster-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cluster-resources.sh"; sourceTree = "<group>"; };
+		DA0288B4076196AEDCEBDE5B1DB3257F /* VegaScrollFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VegaScrollFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		E7852345EF0C39734E3EEE91DBB296A3 /* Pods-Cluster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cluster-dummy.m"; sourceTree = "<group>"; };
+		E857CA4A2589F5AA0F468F4E2D46A1E4 /* Pods-Cluster-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cluster-frameworks.sh"; sourceTree = "<group>"; };
+		E8870F893DB95969CDFB0BDF1605EB35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA265A634125008C6ABCEE4C6ADA4F96 /* VegaScrollFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VegaScrollFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		EA4FD16F73532EC13C2577B0E4E1DEAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02CE45472F0640889F63A2F39C4BE8C /* VegaScrollFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VegaScrollFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		F8304E751C2CC1EAF96D32CA80444C41 /* VegaScrollFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VegaScrollFlowLayout.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A963A09D7B3F08581E6F0A39EF1ADF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6B73C5409D17C8AA5DACF265D1E27E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2DE06B4FD95F6C1D6ED2FC482F53CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEE3B8E55706869E3C3F035CD647E7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E03BFA04260F3BF4B04D9444C53B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87460E865E8ACC7F9D441D242DAC81A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FEEB3E140AD1E589C4F4DFB47560807 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4FD16F73532EC13C2577B0E4E1DEAD /* Info.plist */,
+				4909F5786CBB2DC354DD4C491BADDCB5 /* VegaScrollFlowLayout.modulemap */,
+				F8304E751C2CC1EAF96D32CA80444C41 /* VegaScrollFlowLayout.xcconfig */,
+				DA0288B4076196AEDCEBDE5B1DB3257F /* VegaScrollFlowLayout-dummy.m */,
+				EA265A634125008C6ABCEE4C6ADA4F96 /* VegaScrollFlowLayout-prefix.pch */,
+				F02CE45472F0640889F63A2F39C4BE8C /* VegaScrollFlowLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VegaScrollFlowLayout";
+			sourceTree = "<group>";
+		};
+		241C35FEADE4FCB8E6BAD715E9EC51EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8158D69308EF38D4D3F9F9A0816104A6 /* DottedLineView.modulemap */,
+				69D43EBBCD5DC1147AABC4892366EE9E /* DottedLineView.xcconfig */,
+				ACE1DD044EE67C57E4EFC750971534E3 /* DottedLineView-dummy.m */,
+				B9B7FFA098F848CB09004E9581AF25F6 /* DottedLineView-prefix.pch */,
+				A51EF3E7F767276BB3498CD2B333222C /* DottedLineView-umbrella.h */,
+				E8870F893DB95969CDFB0BDF1605EB35 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DottedLineView";
+			sourceTree = "<group>";
+		};
+		41B0F34EF857FFD6FC95BADAE9E262D5 /* VegaScrollFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				80ED13D9E22EC94935610160D2A5A098 /* VegaScrollFlowLayout.swift */,
+				0FEEB3E140AD1E589C4F4DFB47560807 /* Support Files */,
+			);
+			name = VegaScrollFlowLayout;
+			path = VegaScrollFlowLayout;
+			sourceTree = "<group>";
+		};
+		7954F5FA0F8A35375089350C3420A6B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6C096DA8356250845F26C63B0BFEE87 /* DottedLineView */,
+				41B0F34EF857FFD6FC95BADAE9E262D5 /* VegaScrollFlowLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7954F5FA0F8A35375089350C3420A6B5 /* Pods */,
+				DFF05DCB5CD81F01E6C661E3C5275510 /* Products */,
+				88120EB005D5CFC2A3B426A9B64A4957 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88120EB005D5CFC2A3B426A9B64A4957 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20BE9BD1C14A02AD808A473431865E3 /* Pods-Cluster */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6C096DA8356250845F26C63B0BFEE87 /* DottedLineView */ = {
+			isa = PBXGroup;
+			children = (
+				66A2B34959920C534996534CC2822BD4 /* DottedLineView.swift */,
+				241C35FEADE4FCB8E6BAD715E9EC51EB /* Support Files */,
+			);
+			name = DottedLineView;
+			path = DottedLineView;
+			sourceTree = "<group>";
+		};
+		B20BE9BD1C14A02AD808A473431865E3 /* Pods-Cluster */ = {
+			isa = PBXGroup;
+			children = (
+				304318E36FDBA24566E33065E7BDCF85 /* Info.plist */,
+				D010CF8D3431F155184992029964641C /* Pods-Cluster.modulemap */,
+				4A97CAF83F60F1B4B6D9BCB336F3F17C /* Pods-Cluster-acknowledgements.markdown */,
+				9F02727060FED11243C479AF665CDB87 /* Pods-Cluster-acknowledgements.plist */,
+				E7852345EF0C39734E3EEE91DBB296A3 /* Pods-Cluster-dummy.m */,
+				E857CA4A2589F5AA0F468F4E2D46A1E4 /* Pods-Cluster-frameworks.sh */,
+				D6ABC869858DBC0D3393AF9F3A9C7871 /* Pods-Cluster-resources.sh */,
+				9C8BC21C9F04F333F3C15DA7BFC77FB0 /* Pods-Cluster-umbrella.h */,
+				6600BCBE2EFEDBFF848A394F2C0A78BA /* Pods-Cluster.debug.xcconfig */,
+				358D37E8DF9178974D41033B670129E4 /* Pods-Cluster.release.xcconfig */,
+			);
+			name = "Pods-Cluster";
+			path = "Target Support Files/Pods-Cluster";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DFF05DCB5CD81F01E6C661E3C5275510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49CD25BB22FBB105C448834DB4D10BFD /* DottedLineView.framework */,
+				570C09DA856B131535310ACC7A4C48E5 /* Pods_Cluster.framework */,
+				09CBCC1719B744ABEE12B8ED3D3EC515 /* VegaScrollFlowLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0206F02F1FE9A4EDBD0AED2FF54DA73A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29DEC2EB0B4732833394346295BB60E /* Pods-Cluster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050B5F0B42DA05E14A1FEB22D91C0626 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F844E8EE97185310385CC7744A53C9A /* VegaScrollFlowLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F935FDF47D53E6F2AE9CACD8190303 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7B0A8903CD4590F538D36D80A46294 /* DottedLineView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5FBFE3F084EE50547756DE96E4950BC8 /* DottedLineView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B612C23EB6287E397DF77C96BF2D16FC /* Build configuration list for PBXNativeTarget "DottedLineView" */;
+			buildPhases = (
+				4D35D1E522DD262317D16DB808C5153A /* Sources */,
+				2A963A09D7B3F08581E6F0A39EF1ADF5 /* Frameworks */,
+				72F935FDF47D53E6F2AE9CACD8190303 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DottedLineView;
+			productName = DottedLineView;
+			productReference = 49CD25BB22FBB105C448834DB4D10BFD /* DottedLineView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		629B9FA009A9DB3FD288998631596822 /* Pods-Cluster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20BABB49D4C72C73C159E60D9B1B498 /* Build configuration list for PBXNativeTarget "Pods-Cluster" */;
+			buildPhases = (
+				7144786CD7273368AC00DA94D224BBD6 /* Sources */,
+				EA2DE06B4FD95F6C1D6ED2FC482F53CA /* Frameworks */,
+				0206F02F1FE9A4EDBD0AED2FF54DA73A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635177FF146D668EC3872BABAE83D6EC /* PBXTargetDependency */,
+				C5D6788C3E89AA205CD9A4E7B3706782 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cluster";
+			productName = "Pods-Cluster";
+			productReference = 570C09DA856B131535310ACC7A4C48E5 /* Pods_Cluster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F36F6FCF8EDBD1855603BF2F05544C74 /* VegaScrollFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F1F6BA7FDC9AEAC0D465C8F8264208 /* Build configuration list for PBXNativeTarget "VegaScrollFlowLayout" */;
+			buildPhases = (
+				D646FD08C8E728D4354AEF93B34A3423 /* Sources */,
+				F9E03BFA04260F3BF4B04D9444C53B9C /* Frameworks */,
+				050B5F0B42DA05E14A1FEB22D91C0626 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VegaScrollFlowLayout;
+			productName = VegaScrollFlowLayout;
+			productReference = 09CBCC1719B744ABEE12B8ED3D3EC515 /* VegaScrollFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DFF05DCB5CD81F01E6C661E3C5275510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FBFE3F084EE50547756DE96E4950BC8 /* DottedLineView */,
+				629B9FA009A9DB3FD288998631596822 /* Pods-Cluster */,
+				F36F6FCF8EDBD1855603BF2F05544C74 /* VegaScrollFlowLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D35D1E522DD262317D16DB808C5153A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C93F7EC92243CCA4D57B2E1DD31376 /* DottedLineView-dummy.m in Sources */,
+				6B9952F1D9B485884129E0C62FBEFD3B /* DottedLineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7144786CD7273368AC00DA94D224BBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622FF19A1785190B8E36FE07EEB05C70 /* Pods-Cluster-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646FD08C8E728D4354AEF93B34A3423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53100A4EFB33E338309D5BC29444B1D9 /* VegaScrollFlowLayout-dummy.m in Sources */,
+				BA488C5BAF91CC87A16BCB57FA376191 /* VegaScrollFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		635177FF146D668EC3872BABAE83D6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DottedLineView;
+			target = 5FBFE3F084EE50547756DE96E4950BC8 /* DottedLineView */;
+			targetProxy = 6C1A21F01B711EB9BE78FB8F803E2351 /* PBXContainerItemProxy */;
+		};
+		C5D6788C3E89AA205CD9A4E7B3706782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VegaScrollFlowLayout;
+			target = F36F6FCF8EDBD1855603BF2F05544C74 /* VegaScrollFlowLayout */;
+			targetProxy = 07F9C810035371980D3A0DDF5E40CB4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D309AF31FCE8662D6B707EA1CE915A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6600BCBE2EFEDBFF848A394F2C0A78BA /* Pods-Cluster.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cluster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cluster/Pods-Cluster.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cluster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		108B780BC0B590A837C223A6DF224DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D43EBBCD5DC1147AABC4892366EE9E /* DottedLineView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DottedLineView/DottedLineView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DottedLineView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DottedLineView/DottedLineView.modulemap";
+				PRODUCT_NAME = DottedLineView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		475265D62A1618778A3472B39891FABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D43EBBCD5DC1147AABC4892366EE9E /* DottedLineView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DottedLineView/DottedLineView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DottedLineView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DottedLineView/DottedLineView.modulemap";
+				PRODUCT_NAME = DottedLineView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E655A20709C2B8E406FF36286FD6715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8304E751C2CC1EAF96D32CA80444C41 /* VegaScrollFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VegaScrollFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout.modulemap";
+				PRODUCT_NAME = VegaScrollFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB17E2AEC49502D2FAAB9BE3C90534DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358D37E8DF9178974D41033B670129E4 /* Pods-Cluster.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cluster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cluster/Pods-Cluster.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cluster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4D8E9A96CBE0E5CD24A81A605F533C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8304E751C2CC1EAF96D32CA80444C41 /* VegaScrollFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VegaScrollFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout.modulemap";
+				PRODUCT_NAME = VegaScrollFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F1F6BA7FDC9AEAC0D465C8F8264208 /* Build configuration list for PBXNativeTarget "VegaScrollFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E655A20709C2B8E406FF36286FD6715 /* Debug */,
+				C4D8E9A96CBE0E5CD24A81A605F533C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20BABB49D4C72C73C159E60D9B1B498 /* Build configuration list for PBXNativeTarget "Pods-Cluster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D309AF31FCE8662D6B707EA1CE915A1 /* Debug */,
+				BB17E2AEC49502D2FAAB9BE3C90534DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B612C23EB6287E397DF77C96BF2D16FC /* Build configuration list for PBXNativeTarget "DottedLineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108B780BC0B590A837C223A6DF224DBF /* Debug */,
+				475265D62A1618778A3472B39891FABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
