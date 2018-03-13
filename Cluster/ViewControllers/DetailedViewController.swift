@@ -15,8 +15,9 @@ class DetailedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.weatherSlider.values = [0, 1,2,3];
-        self.weatherSlider.labels = ["1 month","6 months", "1 year", "2 years"];
+        self.weatherSlider.values = [0,1,2,3,4,5,6,7,8,9,10];
+//        self.weatherSlider.labels = ["1 month","6 months", "1 year", "2 years","5 years","10 years"];
+        self.weatherSlider.labels = ["","","","","","","","","","",""]
         self.weatherSlider.labelsFont = UIFont(name: "HelveticaNeue-Light", size: 14.0)!
         
         self.weatherSlider.addTarget(self, action: #selector(sliderValueChanged), for: .valueChanged)
@@ -34,7 +35,7 @@ class DetailedViewController: UIViewController {
     }
     
     func updateLabel(){
-        infoLabel.text = weatherSlider.currentValue as? String;
+        infoLabel.text = "\(weatherSlider.getCurrentValue())";
     }
 
 }

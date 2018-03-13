@@ -14,67 +14,19 @@ let BottomOffset:CGFloat = 15.0;
 @IBDesignable
 class WeatherSlider: UIControl {
     
-    var basicColor:UIColor = UIColor.init(white: 0.7, alpha: 1.0)
+    @IBInspectable var circlesRadius:CGFloat = 12.0;
+    @IBInspectable var circlesRadiusForSelected:CGFloat = 26.0;
+    @IBInspectable var textOffset:CGFloat = 30.0;
     
-    /**
-     *  Basic labels color
-     */
-    var labelColor:UIColor = UIColor.gray;
-    
-    /**
-     * Selected value color
-     */
-    var selectedValueColor:UIColor = UIColor.black;
-    
-    /**
-     * Color of selected label
-     */
-    var selectedLabelColor:UIColor = UIColor.black;
-    
-    /**
-     * Circles radius
-     */
-    var circlesRadius:CGFloat = 12.0;
-    
-    /**
-     * Circles radius for the selected item.
-     */
-    var circlesRadiusForSelected:CGFloat = 26.0;
-    
-    /**
-     * Text offset from the circle
-     */
-    var textOffset:CGFloat = 30.0;
-    
-    /**
-     * Font for labels
-     */
+    var basicColor:UIColor?
+    var labelColor:UIColor?;
+    var selectedValueColor:UIColor?;
+    var selectedLabelColor:UIColor?;
     var labelsFont:UIFont = UIFont(name:"Helvetica-Light",size:16.0)!
-    
-    /**
-     * Contains NSNumber values
-     */
     var values:[NSInteger] = [];
-    
-    /**
-     * Contains NSString labels
-     */
     var labels:[String] = [];
-    
-    /**
-     * Set/get current selected value
-     */
     var currentValue:NSObject?;
-    
-    /**
-     * Set/get selected item index
-     */
     var selectedItemIndex:NSInteger = 0;
-    
-    
-    /**
-     * Set/get selected item index (animated)
-     */
     
     var sliderLayer:CAShapeLayer = CAShapeLayer();
     var circlesLayer:CAShapeLayer = CAShapeLayer();
@@ -137,13 +89,13 @@ class WeatherSlider: UIControl {
     }
     
     func updateLayers(){
-        sliderLayer.strokeColor = basicColor.cgColor;
+        sliderLayer.strokeColor = basicColor?.cgColor;
         sliderLayer.path = self.pathForSlider().cgPath
         
-        circlesLayer.fillColor = basicColor.cgColor;
+        circlesLayer.fillColor = basicColor?.cgColor;
         circlesLayer.path = self.pathForCircles().cgPath
         
-        selectedLayer.fillColor = selectedValueColor.cgColor
+        selectedLayer.fillColor = selectedValueColor?.cgColor
         selectedLayer.path = self.pathForSelected().cgPath
     }
     
@@ -214,8 +166,7 @@ class WeatherSlider: UIControl {
         
         for var i in (0..<values.count){
             let textColor = selectedItemIndex == i ? selectedLabelColor : labelColor
-            
-            draw(label: labels[i], at: CGPoint(x:startPointX + CGFloat(i) * intervalSize, y: yPos - circlesRadius - textOffset), with: textColor)
+            draw(label: labels[i], at: CGPoint(x:startPointX + CGFloat(i) * intervalSize, y: yPos - circlesRadius - textOffset), with: textColor!)
         }
     }
     
